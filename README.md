@@ -1,40 +1,31 @@
-# 📰 Full Stack Blog Website (MERN)
+# 📝 CRUD Application (React)
 
-This is a full-stack **Blog Website** built using the **MERN Stack** – MongoDB, Express.js, React.js, and Node.js. It allows users to read, write, edit, and delete blog posts with full authentication.
+This is a simple CRUD (Create, Read, Update, Delete) web application.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
-- ✍️ Create, Read, Update, Delete (CRUD) blog posts
-- 🔐 User authentication with JWT
-- 🌐 Fully responsive UI built with React
-- 🛠️ RESTful API integration
-- 📊 MongoDB for data storage
-- 📁 Modular backend using Express routes
+- ➕ Add new records (e.g., user, product, task)
+- 📋 View a list of existing records
+- ✏️ Edit existing entries
+- ❌ Delete unwanted records
+- ⚡ Fast UI with React and Axios integration
 
 ---
 
 ## 🛠️ Technologies Used
 
-### Frontend:
-- React.js
-- Axios
-- React Router DOM
-- CSS / Tailwind (or Bootstrap)
-
-### Backend:
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- JWT (Authentication)
-- Dotenv, Cors
+- **Frontend:** React.js, Axios, HTML, CSS
+- **Backend (Mock API):** JSON Server
 
 ---
 
-## 📦 Getting Started
+# 📦Getting Started
 
-### Clone the repo:
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/SwaraMPatil/Blog-Website.git
-cd Blog-Website
+git clone https://github.com/SwaraMPatil/Application--crud.git
+cd Application--crud/crud-app
+
