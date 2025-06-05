@@ -1,29 +1,41 @@
-# 📝 CRUD Application (React)
+# 📝 Blog Website
 
-This is a simple CRUD (Create, Read, Update, Delete) web application.
-
----
-
-## 🚀 Features
-
-- ➕ Add new records (e.g., user, product, task)
-- 📋 View a list of existing records
-- ✏️ Edit existing entries
-- ❌ Delete unwanted records
-- ⚡ Fast UI with React and Axios integration
+This is full-stack blog application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack.  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Axios, HTML, CSS
-- **Backend (Mock API):** JSON Server
+- **Express.js** – Backend framework to handle API requests.
+- **React.js** – Frontend library for building the UI.
+- **Axios** – For making HTTP requests.
+- **React Router DOM** – Navigation and routing.
+- **JWT (if used)** – For secure authentication.
+- **MongoDB** – NoSQL database to store user and blog data.
+- **Node.js** – Backend runtime for executing server-side code.
 
 ---
 
-# 📦Getting Started
+## 📁 Project Structure
 
-### 1️⃣ Clone the Repository
+```bash
+Blog-Website/
+│
+├── client/                 # Frontend (React)
+│   ├── public/             # Static files
+│   ├── src/
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Route-based pages (Home, Login, Register, etc.)
+│   │   ├── App.js          # Main App with routes
+│   │   └── index.js        # React DOM rendering
+│
+├── server/                 # Backend (Node + Express)
+│   ├── controllers/        # Route logic
+│   ├── models/             # MongoDB schemas
+│   ├── routes/             # API routes
+│   ├── .env                # Environment variables
+│   └── index.js            # Server entry point
+
 
 ```bash
 git clone https://github.com/SwaraMPatil/Application--crud.git
